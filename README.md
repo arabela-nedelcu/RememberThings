@@ -21,6 +21,7 @@ Pentru rularea aplicației este nevoie de Android Studio și Virtual Android Mac
 
 Inainte de logare, ne trebuie cheia pe care o genereaza Android Studio, pentru a putea fi inregistrata aplicatia ca fiind de incredere in magazinul GOOGLE.
 Pentru a genera cheia trebuie rulata comanda urmatoarea in CMD:
+
 keytool -list -v -keystore "%USERPROFILE%\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
 
 Dupa ce generati cheia, copiati partea unde scrie SHA-1 si o transmiteti pe email-ul nostru pentru a va putea inregistra aplicatia.
